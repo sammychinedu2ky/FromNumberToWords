@@ -70,7 +70,7 @@ convert(input.toString()).then(()=>{
   })
   return newWord.trim()
 }
-fromNumberToWords(12388)
+//fromNumberToWords(12388)
 
 
 
