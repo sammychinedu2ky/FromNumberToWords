@@ -4,11 +4,14 @@ When the function fromNumberToWords is called with an input of  '12388' -- fromN
 
 
 One cool thing about this library is that it returns the words taking into consideration that the output should be broken down into chunks using comma. i.e it doesn't just return words that are bare of commas. For instance:- 
+
 Instead of fromNumberToWords(12388) to return "**twelve thousand three hundred and eighty eight**" it returns 
 "**twelve thousand, three hundred and eighty eight**"
+
 N.B: The constraint of integer conversion is from zero to trillion
 Please feel free to make use of this library for your projects.
 Written by Sammychinedu2ky.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxNTM0MTk0LDExNDAxNjgxMzRdfQ==
+eyJoaXN0b3J5IjpbNTg5MzI3MjgyLDYwMTUzNDE5NCwxMTQwMT
+Y4MTM0XX0=
 -->
