@@ -10,8 +10,11 @@ Instead of fromNumberToWords(12388) to return "**twelve thousand three hundred a
 
 N.B: The constraint of integer conversion is from zero to trillion
 Please feel free to make use of this library for your projects.
+
+To use this library, use this link to import it: https://sammychinedu2ky.github.io/FromNumberToWords/script.js
+
 Written by Sammychinedu2ky.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5MzI3MjgyLDYwMTUzNDE5NCwxMTQwMT
-Y4MTM0XX0=
+eyJoaXN0b3J5IjpbMjI3MzM1OTI1LDU4OTMyNzI4Miw2MDE1Mz
+QxOTQsMTE0MDE2ODEzNF19
 -->
