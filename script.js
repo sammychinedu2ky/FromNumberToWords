@@ -59,7 +59,7 @@ else{
     }}
     return newWord
 }
-convert(input.toString()).then(()=>{
+convert(parseInt(input).toString()).then(()=>{
     if(newWord.endsWith(',')){
         newWord = newWord.slice(0,newWord.length-1)
     }
@@ -68,7 +68,19 @@ convert(input.toString()).then(()=>{
     }
     //console.log(newWord)
   })
-  return newWord.trim()
+  if(/\.[1-9]/.test((input).toString())){
+	 let decimalArray = (((input.toString()).match(/\.\d+/)))[0].split('')
+	 let decimalMap = decimalArray.map((item,index)=>{
+		 if (item=="0" && index===0)return " ";
+		 if(item===".")return "point";
+		 if(item=="0")return 'zero'
+		 return words[item].trim();
+	 }) 
+	 let decimalWord = decimalMap.join(' ');
+	
+	 newWord = newWord + " " +decimalWord
+}
+  return newWord.replace(/(\s+)/,"")
 }
 //fromNumberToWords(12388)
 
