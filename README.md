@@ -1,6 +1,6 @@
 # FromNumberToWords
-This is javascript function/mini library that converts integers into words. For instance:-
-When the function fromNumberToWords is called with an input of  '12388' -- fromNumberToWords(12388) -- it would return "**twelve thousand, three hundred and eighty eight**"
+This is javascript function/mini library that converts numbers into words. For instance:-
+When the function fromNumberToWords is called with an input of  '12388.33' -- fromNumberToWords(12388.33) -- it would return "**twelve thousand, three hundred and eighty eight point three three**"
 
 
 One cool thing about this library is that it returns the words taking into consideration that the output should be broken down into chunks using comma. i.e it doesn't just return words that are bare of commas. For instance:- 
